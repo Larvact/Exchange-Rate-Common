@@ -2,11 +2,27 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>toby.exchangerate</groupId>
+  <parent>
+    <groupId>toby.exchangerate</groupId>
+    <artifactId>internal</artifactId>
+    <version>1.0.0</version>
+  </parent>
+
   <artifactId>common</artifactId>
   <version>1.0.0</version>
   <packaging>jar</packaging>
   <name>Exchange Rate Common</name>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-web</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+    </dependency>
+  </dependencies>
 
   <build>
     <plugins>
