@@ -3,8 +3,8 @@ package toby.exchangerate.common.exception.api;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
-
 import java.time.Instant;
+
 @RequiredArgsConstructor
 @Getter
 public class ApiResponseException extends RuntimeException
