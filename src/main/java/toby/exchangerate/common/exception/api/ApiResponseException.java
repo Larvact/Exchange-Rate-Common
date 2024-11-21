@@ -1,4 +1,4 @@
-package toby.exchangerate.common.exception;
+package toby.exchangerate.common.exception.api;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
