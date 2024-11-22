@@ -7,7 +7,7 @@ import java.time.Instant;
 
 @RequiredArgsConstructor
 @Getter
-public class ApiResponseException extends RuntimeException
+public class ApiResponseErrorDetail
 {
     private final String message;
     private final Throwable cause;
